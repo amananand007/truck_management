@@ -17,8 +17,8 @@ public class Truck {
 
     }
 
-    public Truck(int id, String name, String model, int capacity, String driverName) {
-        this.id = id;
+    public Truck( String name, String model, int capacity, String driverName) {
+
         this.name = name;
         this.model = model;
         this.capacity = capacity;
