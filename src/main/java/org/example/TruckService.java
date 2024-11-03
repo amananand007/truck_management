@@ -103,6 +103,10 @@ public class TruckService {
         return trucks;
     }
 
+
+
+
+
     public void deleteTruck(int id){
 
         String deleteQuery = "delete from truck where id = ?";
